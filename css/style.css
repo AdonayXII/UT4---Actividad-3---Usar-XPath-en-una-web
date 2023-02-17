@@ -1,0 +1,17 @@
+body{
+    align-content: center;
+    background-color: lightgray;
+    width: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#buttons{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-wrap: wrap;
+}
+
+#result{
+    margin-top: 1.5%;
+    margin-left: 0.5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

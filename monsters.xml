@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<monsters>
+    <monster id="Brutal">
+        <name>Brachydios Colérico</name>
+        <maxSize>2103,3</maxSize>
+        <elements>
+            <elementsInflicting>
+                <elementName>Inflinge plaga de fuego</elementName>
+                <elementName>Inflinge plaga de nitro</elementName>
+            </elementsInflicting>
+            <weaknessElements>
+                <weakElement>Débil al hielo</weakElement>
+                <weakElement>Débil al agua</weakElement>
+            </weaknessElements>
+        </elements>
+        <habitats>
+            <habitat>Isla Ingel</habitat>
+            <habitat>Tierras Destino</habitat>
+        </habitats>
+    </monster>
+
+    <monster id="Brutal">
+        <name>Barroth Esmeralda</name>
+        <maxSize>1744,3</maxSize>
+        <elements>
+            <elementsInflicting>
+                <elementName>Inflinge plaga de hielo</elementName>
+            </elementsInflicting>
+            <weaknessElements>
+                <weakElement>Débil al fuego(recubierto de nieve)</weakElement>
+                <weakElement>Débil al rayo(sin estar recubierto)</weakElement>
+            </weaknessElements>
+        </elements>
+        <habitats>
+            <habitat>Tundra</habitat>
+        </habitats>
+    </monster>
+
+    <monster id="Brutal">
+        <name>Glavenus</name>
+        <maxSize>3174,36</maxSize>
+        <elements>
+            <elementsInflicting>
+                <elementName>Inflinge plaga de fuego</elementName>
+            </elementsInflicting>
+            <weaknessElements>
+                <weakElement>Débil al draco</weakElement>
+                <weakElement>Débil al agua</weakElement>
+            </weaknessElements>
+        </elements>
+        <habitats>
+            <habitat>Isla Ingel</habitat>
+            <habitat>Tierras Destino</habitat>
+            <habitat>Fronda Arcaica</habitat>
+            <habitat>Desierto</habitat>
+            <habitat>Dunas</habitat>
+            <habitat>Volcán Activo</habitat>
+            <habitat>Hoyo Volcán</habitat>
+            <habitat>Jungla</habitat>
+            <habitat>Arena Forlorn</habitat>
+            <habitat>Bosque Primigenio</habitat>
+            <habitat>Yermo de Agujas</habitat>
+            <habitat>Lecho de los Ancianos</habitat>
+        </habitats>
+    </monster>
+    
+    <monster id="Elder">
+        <name>Fatalis Blanco</name>
+        <maxSize>4119,2</maxSize>
+        <elements>
+            <elementsInflicting>
+                <elementName>Inflinge plaga de rayo</elementName>
+                <elementName>Inflinge plaga de draco</elementName>
+            </elementsInflicting>
+            <weaknessElements>
+                <weakElement>Débil al fuego</weakElement>
+                <weakElement>Débil al draco</weakElement>
+            </weaknessElements>
+        </elements>
+        <habitats>
+            <habitat>Torre</habitat>
+            <habitat>Castillo Skrad</habitat>
+        </habitats>
+    </monster>
+
+    <monster id="Elder">
+        <name>Shagaru Magala</name>
+        <maxSize>2187,06</maxSize>
+        <elements>
+            <elementsInflicting>
+                <elementName>Inflinge cólera</elementName>
+            </elementsInflicting>
+            <weaknessElements>
+                <weakElement>Débil al fuego</weakElement>
+                <weakElement>Débil al draco</weakElement>
+            </weaknessElements>
+        </elements>
+        <habitats>
+            <habitat>Zona Sagrada</habitat>
+            <habitat>Vergel Eterno</habitat>
+            <habitat>Arena Forlorn</habitat>
+        </habitats>
+    </monster>
+
+    <monster id="Elder">
+        <name>Nergigante Regio</name>
+        <maxSize>2310,14</maxSize>
+        <elements>
+            <elementsInflicting>
+                <elementName>Inflinge sangrado</elementName>
+            </elementsInflicting>
+            <weaknessElements>
+                <weakElement>Débil al rayo</weakElement>
+                <weakElement>Débil al draco</weakElement>
+            </weaknessElements>
+        </elements>
+        <habitats>
+            <habitat>Isla Origen</habitat>
+            <habitat>Tierras Destino</habitat>
+            <habitat>Bosque Primigenio</habitat>
+            <habitat>Yermo de Agujas</habitat>
+            <habitat>Altiplanos Coralinos</habitat>
+            <habitat>Valle Putrefacto</habitat>
+            <habitat>Lecho de los Ancianos</habitat>
+            <habitat>Arroyo Escarcha</habitat>
+        </habitats>
+    </monster>
+
+    <monster id="Fly">
+        <name>Rathian</name>
+        <maxSize>2303,8</maxSize>
+        <elements>
+            <elementsInflicting>
+                <elementName>Inflinge plaga de fuego</elementName>
+                <elementName>Inflinge veneno</elementName>
+            </elementsInflicting>
+            <weaknessElements>
+                <weakElement>Débil al draco</weakElement>
+                <weakElement>Débil al rayo</weakElement>
+            </weaknessElements>
+        </elements>
+        <habitats>
+            <habitat>Bosque Rocoso</habitat>
+            <habitat>Ciénaga</habitat>
+            <habitat>Desierto</habitat>
+            <habitat>Jungla</habitat>
+            <habitat>Isla Desierta</habitat>
+            <habitat>Llanos Arenosos</habitat>
+            <habitat>Bosque Inundado</habitat>
+            <habitat>Picos Nublados</habitat>
+            <habitat>Estepa Otoñal</habitat>
+            <habitat>Sima Hueca</habitat>
+            <habitat>Selva Jurásica</habitat>
+            <habitat>Dunas</habitat>
+            <habitat>Fronda Arcaica</habitat>
+            <habitat>Sierra en Ruinas</habitat>
+            <habitat>Bosque Primigenio</habitat>
+            <habitat>Yermo de Agujas</habitat>
+            <habitat>Arena Forlorn</habitat>
+            <habitat>Llanos Arenosos</habitat>
+            <habitat>Templo Olvidado</habitat>
+        </habitats>
+    </monster>
+
+    <monster id="Fly">
+        <name>Rathalos</name>
+        <maxSize>2248,6</maxSize>
+        <elements>
+            <elementsInflicting>
+                <elementName>Inflinge plaga de fuego</elementName>
+                <elementName>Inflinge veneno</elementName>
+                <elementName>Aturde facilmente</elementName>
+            </elementsInflicting>
+            <weaknessElements>
+                <weakElement>Débil al draco</weakElement>
+                <weakElement>Débil al rayo</weakElement>
+            </weaknessElements>
+        </elements>
+        <habitats>
+            <habitat>Bosque Rocoso</habitat>
+            <habitat>Bosque y Colinas</habitat>
+            <habitat>Cinturón Volcánico</habitat>
+            <habitat>Volcán</habitat>
+            <habitat>Isla Desierta</habitat>
+            <habitat>Cumbres Borrascosas</habitat>
+            <habitat>Etapa Otoñal</habitat>
+            <habitat>Fronda Arcaica</habitat>
+            <habitat>Sima Hueca</habitat>
+            <habitat>Hoyo Volcán</habitat>
+            <habitat>Monte Cielo</habitat>
+            <habitat>Sierra en Ruinas</habitat>
+            <habitat>Bosque Primigenio</habitat>
+            <habitat>Tierras Altas</habitat>
+            <habitat>Garganta</habitat>
+            <habitat>Torre</habitat>
+            <habitat>Grutas de lava</habitat>
+            <habitat>Templo Olvidado</habitat>
+        </habitats>
+    </monster>
+
+    <monster id="Fly">
+        <name>Fulmen Astalos</name>
+        <maxSize>2441,36</maxSize>
+        <elements>
+            <elementsInflicting>
+                <elementName>Inflinge plaga de rayo</elementName>
+                <elementName>Inflinge parálisis</elementName>
+            </elementsInflicting>
+            <weaknessElements>
+                <weakElement>Débil al hielo</weakElement>
+                <weakElement>Débil al agua</weakElement>
+            </weaknessElements>
+        </elements>
+        <habitats>
+            <habitat>Bosque Rocoso</habitat>
+            <habitat>Ciénaga</habitat>
+            <habitat>Estepa Otoñal</habitat>
+            <habitat>Isla Ingel</habitat>
+            <habitat>Zona Sagrada</habitat>
+        </habitats>
+    </monster>
+
+    <monster id="Temnoceran">
+        <name>Nerscylla</name>
+        <maxSize>1126,57</maxSize>
+        <elements>
+            <elementsInflicting>
+                <elementName>Inflinge sueño</elementName>
+                <elementName>Inflinge enmarañado</elementName>
+                <elementName>Inflinge veneno nocivo</elementName>
+            </elementsInflicting>
+            <weaknessElements>
+                <weakElement>Débil al fuego(con piel de Gypceros)</weakElement>
+                <weakElement>Débil al rayo(sin piel de Gypceros)</weakElement>
+            </weaknessElements>
+        </elements>
+        <habitats>
+            <habitat>Sima Hueca</habitat>
+            <habitat>Selva Jurásica</habitat>
+            <habitat>Vergel Eterno</habitat>
+            <habitat>Ciénaga</habitat>
+        </habitats>
+    </monster>
+
+    <monster id="Temnoceran">
+        <name>Rakna-Kadaki</name>
+        <maxSize>No hay registros exactos</maxSize>
+        <elements>
+            <elementsInflicting>
+                <elementName>Inflinge plaga de fuego</elementName>
+                <elementName>Inflinge enmarañado</elementName>
+            </elementsInflicting>
+            <weaknessElements>
+                <weakElement>Se está investigando</weakElement>
+            </weaknessElements>
+        </elements>
+        <habitats>
+            <habitat>Grutas de Lava</habitat>
+            <habitat>Llanos Arenosos(Rise)</habitat>
+        </habitats>
+    </monster>
+    
+    <monster id="Temnoceran">
+        <name>Nerscylla Sombrío</name>
+        <maxSize>1178,7</maxSize>
+        <elements>
+            <elementsInflicting>
+                <elementName>Inflinge parálisis</elementName>
+                <elementName>Inflinge enmarañado</elementName>
+                <elementName>Inflinge veneno nocivo</elementName>
+            </elementsInflicting>
+            <weaknessElements>
+                <weakElement>Débil al fuego(con piel de Khezu)</weakElement>
+                <weakElement>Débil al hielo(sin piel de Khezu)</weakElement>
+            </weaknessElements>
+        </elements>
+        <habitats>
+            <habitat>Dunas</habitat>
+            <habitat>Vergel Eterno</habitat>
+        </habitats>
+    </monster>
+
+    <monster id="Fanged">
+        <name>Gammoth</name>
+        <maxSize>2617,48</maxSize>
+        <elements>
+            <elementsInflicting>
+                <elementName>Inflinge plaga de hielo</elementName>
+                <elementName>Inflinge el efecto de muñeco de nieve</elementName>
+            </elementsInflicting>
+            <weaknessElements>
+                <weakElement>Débil al fuego</weakElement>
+                <weakElement>Débil al hielo</weakElement>
+            </weaknessElements>
+        </elements>
+        <habitats>
+            <habitat>Cimas Árticas</habitat>
+            <habitat>Canal Helado</habitat>
+            <habitat>Arena Forlorn</habitat>
+            <habitat>Zona Polar</habitat>
+        </habitats>
+    </monster>
+
+    <monster id="Fanged">
+        <name>Arzuros Ámbar</name>
+        <maxSize>896,35</maxSize>
+        <elements>
+            <elementsInflicting>
+                <elementName>Aturde facilmente</elementName>
+            </elementsInflicting>
+            <weaknessElements>
+                <weakElement>Débil al fuego</weakElement>
+                <weakElement>Débil al hielo</weakElement>
+            </weaknessElements>
+        </elements>
+        <habitats>
+            <habitat>Isla Desierta</habitat>
+            <habitat>Picos Nublados</habitat>
+            <habitat>Jungla</habitat>
+            <habitat>Pináculo Sagrado</habitat>
+            <habitat>Arena Forlorn</habitat>
+        </habitats>
+    </monster>
+
+    <monster id="Fanged">
+        <name>Lagombi</name>
+        <maxSize>1581,9</maxSize>
+        <elements>
+            <elementsInflicting>
+                <elementName>Inflinge plaga de hielo</elementName>
+                <elementName>Inflinge el efecto de muñeco de nieve</elementName>
+            </elementsInflicting>
+            <weaknessElements>
+                <weakElement>Débil al fuego</weakElement>
+            </weaknessElements>
+        </elements>
+        <habitats>
+            <habitat>Cimas Árticas</habitat>
+            <habitat>Canal Helado</habitat>
+            <habitat>Tundra</habitat>
+            <habitat>Islas Heladas</habitat>
+        </habitats>
+    </monster>
+
+    <monster id="unclasified">
+        <name>Laviente</name>
+        <maxSize id="colosal">No hay registros exactos pero se puede decir que es COLOSAL</maxSize>
+        <elements>
+            <elementsInflicting>
+                <elementName>Inflinge plaga de fuego</elementName>
+                <elementName>Inflinge parálisis</elementName>
+                <elementName>Aturde facilmente</elementName>
+            </elementsInflicting>
+            <weaknessElements>
+                <weakElement>Débil al draco</weakElement>
+            </weaknessElements>
+        </elements>
+        <habitats>
+            <habitat>Isla Absoluta</habitat>
+        </habitats>
+    </monster>
+
+    <monster id="unclasified">
+        <name>Laviente Violento</name>
+        <maxSize id="colosal">No hay registros exactos pero se puede decir que es COLOSAL</maxSize>
+        <elements>
+            <elementsInflicting>
+                <elementName>Inflinge plaga de fuego</elementName>
+                <elementName>Inflinge parálisis</elementName>
+                <elementName>Aturde facilmente</elementName>
+            </elementsInflicting>
+            <weaknessElements>
+                <weakElement>Débil al draco</weakElement>
+            </weaknessElements>
+        </elements>
+        <habitats>
+            <habitat>Isla Absoluta</habitat>
+        </habitats>
+    </monster>
+
+    <monster id="unclasified">
+        <name>Laviente Berserer</name>
+        <maxSize id="colosal">No hay registros exactos pero se puede decir que es COLOSAL</maxSize>
+        <elements>
+            <elementsInflicting>
+                <elementName>Inflinge plaga de fuego</elementName>
+                <elementName>Inflinge parálisis</elementName>
+                <elementName>Aturde facilmente</elementName>
+            </elementsInflicting>
+            <weaknessElements>
+                <weakElement>Se desconocen sus debilidades</weakElement>
+            </weaknessElements>
+        </elements>
+        <habitats>
+            <habitat>Abismo de Isla Absoluta</habitat>
+        </habitats>
+    </monster>
+
+    <monster id="snake">
+        <name>Najarala</name>
+        <maxSize id="colosal">5068,75</maxSize>
+        <elements>
+            <elementsInflicting>
+                <elementName>Inflinge parálisis</elementName>
+                <elementName>Aturde facilmente</elementName>
+            </elementsInflicting>
+            <weaknessElements>
+                <weakElement>Débil al hielo</weakElement>
+                <weakElement>Débil al agua</weakElement>
+            </weaknessElements>
+        </elements>
+        <habitats>
+            <habitat>Selva Jurásica</habitat>
+            <habitat>Vergel Eterno</habitat>
+            <habitat>Bosque Rocoso</habitat>
+            <habitat>Ciénaga</habitat>
+        </habitats>
+    </monster>
+
+</monsters>
